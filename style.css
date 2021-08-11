@@ -1,5 +1,123 @@
-.navlinks a {
+a:visited {
+  color: rgba(12, 11, 49, 1);
+}
+
+.list-style {
+  list-style: none;
+}
+
+.page-wide-section {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  height: 80px;
+  border-bottom: 1px solid #10103030;
+}
+
+.navlinks-header a {
   text-decoration: none;
   color: rgba(12, 11, 49, 1);
-  font-size: 1em;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-left: 1px solid #10103030;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.lyft-logo {
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navlinks-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .navlinks-header li {
+  font-weight: 700;
+  display: flex;
+}
+
+.navbar .navlinks-header li a {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .searchbox {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid #101030;
+  border-radius: 6px;
+  height: 48px;
+  padding: 16px;
+}
+
+.searchicon {
+  margin-left: 50px;
+}
+
+.search-dot {
+  margin-right: 8px;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.footer {
+  background-color: #dbe9ee;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navlinks-footer a {
+  text-decoration: none;
+  color: rgba(12, 11, 49, 1);
+}
+
+.sitemap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footnote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footnote .list-style {
+  display: flex;
+  flex-direction: row;
+}
+
+.footnote .list-style * + * {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.page-section {
+  max-width: 83.333%;
+  margin-left: auto;
+  margin-right: auto;
 }
