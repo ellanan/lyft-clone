@@ -79,15 +79,15 @@ header {
 
 .hero-section {
   position: relative;
-  padding-left: 24px;
   display: flex;
   flex-wrap: wrap;
   min-width: 320px;
   width: 100%;
   max-width: 1280px;
   margin: 0px auto;
-  padding-right: 8px;
   padding-top: 40px;
+  padding-right: 10px;
+  padding-left: 24px;
 }
 
 .ready-when-you-are {
@@ -102,6 +102,7 @@ header {
   font-weight: 600;
   line-height: 92px;
   text-align: left;
+  margin-bottom: 48px;
 }
 
 a.apply-to-drive {
@@ -128,7 +129,73 @@ a.sign-up-to-ride {
   cursor: pointer;
 }
 
+.hero-img-1 {
+  width: 1920;
+  height: 2560;
+}
+
+.driver-wearing-mask {
+  display: block;
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  bottom: 20px;
+  left: -24%;
+}
+
+.driver-section {
+  background-color: white;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.driver-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding-right: 8px;
+  padding-left: 16px;
+}
+
+.driver-2 {
+  border-top-right-radius: 140px;
+  width: 100%;
+  height: auto;
+}
+
+.driver-section-info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.drive-with-lyft {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.set-your-own-hours {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.reason-to-drive {
+  margin-bottom: 24px;
+}
+
 /*_________________________________FOOTER_________________________________*/
+
 .fa-twitter {
   color: white;
 }
@@ -151,6 +218,23 @@ a.sign-up-to-ride {
 .navlinks-footer a {
   text-decoration: none;
   color: rgba(12, 11, 49, 1);
+}
+.navlinks-footer-links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(12, 11, 49, 1);
+  border: 1px solid rgba(12, 11, 49, 0.45);
+  border-radius: 56px;
+  position: relative;
+  padding: 8px 24px;
+  min-height: 48px;
+  min-width: 100px;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 8px;
 }
 
 .sitemap {
