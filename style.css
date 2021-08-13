@@ -13,6 +13,8 @@ a:visited {
   margin-right: auto;
 }
 
+/*_________________________________HEADER_________________________________*/
+
 header {
   height: 80px;
   border-bottom: 1px solid #10103030;
@@ -55,6 +57,8 @@ header {
 
 .navbar .searchbox {
   margin-left: auto;
+  margin-top: 1em;
+  margin-right: 2em;
   display: flex;
   align-items: center;
   border: 0.5px solid #101030;
@@ -71,6 +75,60 @@ header {
   margin-right: 8px;
 }
 
+/*_________________________________SECTION_________________________________*/
+
+.hero-section {
+  position: relative;
+  padding-left: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding-right: 8px;
+  padding-top: 40px;
+}
+
+.ready-when-you-are {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hop-in {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 92px;
+  text-align: left;
+}
+
+a.apply-to-drive {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: rgba(139, 55, 255, 1);
+  border-radius: 56px;
+  box-sizing: border-box;
+  padding: 1em;
+  cursor: pointer;
+}
+
+a.sign-up-to-ride {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 56px;
+  box-sizing: border-box;
+  padding: 1em;
+  cursor: pointer;
+}
+
+/*_________________________________FOOTER_________________________________*/
 .fa-twitter {
   color: white;
 }
@@ -86,8 +144,8 @@ header {
 .footer {
   background-color: #dbe9ee;
   font-size: 12px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 32px 0px;
+  margin-top: 5em;
 }
 
 .navlinks-footer a {
