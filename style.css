@@ -194,6 +194,119 @@ a.sign-up-to-ride {
   margin-bottom: 24px;
 }
 
+.driver-review-container {
+  display: flex;
+  flex-direction: row;
+  min-width: 320px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding-right: 32px;
+  padding-left: 16px;
+}
+
+.driver-img-harold {
+  max-width: 80px;
+  margin: 0px auto;
+}
+
+.driver-img-mary-christine {
+  max-width: 80px;
+  margin: 0px auto;
+  transform: scale(0.6);
+  opacity: 0.6;
+}
+
+.driver-review-harold {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.driver-review-mary-christine {
+  color: rgb(99, 99, 123);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.driver-name-harold {
+  color: black;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.driver-name-mary-christine {
+  color: rgb(99, 99, 123);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.driver-yoe-harold {
+  color: black;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.driver-yoe-mary-christine {
+  color: rgb(99, 99, 123);
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.driver-review-individual {
+  text-align: center;
+  padding: 0px 32px;
+  position: relative;
+  height: 100%;
+  width: 33.3333%;
+}
+
+.driver-review-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.driver-review-nav-left-arrow {
+  margin: 0px 24px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid black;
+  border-radius: 56px;
+  background-color: white;
+}
+
+.driver-review-nav-current {
+  height: 8px;
+  width: 8px;
+  border: 1px solid rgba(12, 11, 49, 1);
+  border-radius: 50%;
+  background-color: black;
+  padding: 0px;
+}
+
+.driver-review-nav-other {
+  height: 8px;
+  width: 8px;
+  border: 1px solid rgba(12, 11, 49, 1);
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 8px;
+  padding: 0px;
+}
+
 /*_________________________________FOOTER_________________________________*/
 
 .fa-twitter {
