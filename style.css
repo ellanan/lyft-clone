@@ -199,6 +199,12 @@ a.sign-up-to-ride {
 
 /*_________________________________DRIVER REVIEW SECTION_________________________________*/
 
+.driver-review-section {
+  background-color: white;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 .driver-review-container {
   display: flex;
   flex-direction: row;
@@ -318,6 +324,144 @@ a.sign-up-to-ride {
 }
 
 /*_________________________________RIDE SECTION_________________________________*/
+
+.ride-section1 {
+  background-color: rgb(235, 235, 255);
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.ride-section1-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding-right: 8px;
+  padding-left: 16px;
+}
+
+.ride-section1-part1 {
+  width: 8.3333%;
+  order: 1;
+}
+
+.ride-section1-part2 {
+  width: 41.6667%;
+  order: 3;
+  text-align: left;
+}
+
+.ride-with-lyft {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.ready-set-go {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  font-family: sans-serif;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.get-a-reliable-ride {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 24px;
+  padding: 21px 21px;
+  background-color: white;
+  border-radius: 999px;
+  border: 1px solid rgb(139, 55, 255);
+  box-shadow: rgb(0 0 0 / 12%) 0px 0px 1px 0px, rgb(0 0 0 / 16%) 0px 3px 6px 0px;
+  height: 40px;
+}
+
+.get-a-reliable-ride-content {
+  line-height: 18px;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: sans-serif;
+  padding-left: 8px;
+}
+.get-a-reliable-ride-content:hover {
+  text-decoration: underline;
+}
+
+.know-that-your-driver {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 21px 21px 8px;
+}
+
+.know-that-your-driver-content {
+  line-height: 18px;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: sans-serif;
+  padding-left: 8px;
+}
+.know-that-your-driver-content:hover {
+  text-decoration: underline;
+}
+
+.schedule-your-ride {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 21px 21px 8px;
+}
+
+.schedule-your-ride-content {
+  line-height: 18px;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: sans-serif;
+  padding-left: 8px;
+}
+.schedule-your-ride-content:hover {
+  text-decoration: underline;
+}
+
+.get-a-ride-button {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: rgba(139, 55, 255, 1);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  min-height: 48px;
+  min-width: 100px;
+  padding: 8px 24px;
+}
+
+.lyft-pink {
+  width: 100px;
+  height: auto;
+}
+.lyft-pink-p {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ride-section1-part3 {
+  width: 8.3333%;
+  order: 3;
+}
+
+.ride-section1-part4 {
+  width: 33.3333%;
+  order: 4;
+}
 
 /*_________________________________FOOTER_________________________________*/
 
