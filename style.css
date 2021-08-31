@@ -75,7 +75,7 @@ header {
   margin-right: 8px;
 }
 
-/*_________________________________SECTION_________________________________*/
+/*_________________________________HERO SECTION_________________________________*/
 
 .hero-section {
   position: relative;
@@ -132,6 +132,7 @@ a.sign-up-to-ride {
 .hero-img-1 {
   width: 1920;
   height: 2560;
+  padding-bottom: 115px;
 }
 
 .driver-wearing-mask {
@@ -142,6 +143,8 @@ a.sign-up-to-ride {
   bottom: 20px;
   left: -24%;
 }
+
+/*_________________________________DRIVER SECTION_________________________________*/
 
 .driver-section {
   background-color: white;
@@ -193,6 +196,8 @@ a.sign-up-to-ride {
 .reason-to-drive {
   margin-bottom: 24px;
 }
+
+/*_________________________________DRIVER REVIEW SECTION_________________________________*/
 
 .driver-review-container {
   display: flex;
@@ -279,12 +284,16 @@ a.sign-up-to-ride {
   justify-content: center;
 }
 
-.driver-review-nav-left-arrow {
+.driver-review-nav-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin: 0px 24px;
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   border: 1px solid black;
   border-radius: 56px;
+  border-color: rgba(12, 11, 49, 0.45);
   background-color: white;
 }
 
@@ -295,6 +304,7 @@ a.sign-up-to-ride {
   border-radius: 50%;
   background-color: black;
   padding: 0px;
+  position: relative;
 }
 
 .driver-review-nav-other {
@@ -306,6 +316,8 @@ a.sign-up-to-ride {
   margin-left: 8px;
   padding: 0px;
 }
+
+/*_________________________________RIDE SECTION_________________________________*/
 
 /*_________________________________FOOTER_________________________________*/
 
