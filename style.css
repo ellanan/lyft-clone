@@ -623,6 +623,81 @@ a.sign-up-to-ride {
   margin-left: 5px;
 }
 
+/*_________________________________SAFETY FIRST SECTION_________________________________*/
+
+.safety-first-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: left;
+  padding-left: 16px;
+  padding-right: 8px;
+}
+
+.safety-first-section1 {
+  width: 8.3333%;
+}
+
+.safety-first-section2 {
+  width: 40.6667%;
+}
+
+.safety-first-header {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.how-to-show {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.learn-about-safety {
+  font-weight: 700;
+  color: white;
+  background-color: rgba(139, 55, 255, 1);
+  border-radius: 50px;
+  min-height: 48px;
+  min-width: 100px;
+  padding: 8px 24px;
+  margin-right: 26px;
+  font-size: 16px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.community-guidlines {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.safety-first-section3 {
+  width: 8.3333%;
+}
+
+.safety-first-section4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.3333%;
+}
+
+/*_________________________________VACCINE ACCESS SECTION_________________________________*/
+
+/*_________________________________LYFT BUSINESS SECTION_________________________________*/
+
 /*_________________________________FOOTER_________________________________*/
 
 .fa-twitter {
