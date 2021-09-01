@@ -464,7 +464,7 @@ a.sign-up-to-ride {
 
 .ride-section2 {
   background-color: rgb(235, 235, 255);
-  margin-bottom: 80px;
+  padding-bottom: 20px;
 }
 
 .ride-section2-container {
@@ -572,6 +572,55 @@ a.sign-up-to-ride {
   font-weight: 400;
   margin-top: 50px;
   margin-bottom: 80px;
+}
+
+.ride-section3 {
+  background-color: rgb(43, 27, 129);
+  margin-bottom: 80px;
+}
+
+.ride-section3-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 320px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 36px 8px 36px 24px;
+  margin-left: 7.333%;
+}
+
+.ready-to-roll {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.ride-section3-searchbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ride-section3-searchbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 16px 26px 16px 14px;
+}
+
+.ride-section3-get-estimate {
+  background-color: white;
+  font-weight: 700;
+  border-radius: 56px;
+  padding: 12px 22px;
+  margin-left: 5px;
 }
 
 /*_________________________________FOOTER_________________________________*/
