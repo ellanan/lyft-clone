@@ -328,7 +328,6 @@ a.sign-up-to-ride {
 .ride-section1 {
   background-color: rgb(235, 235, 255);
   margin-top: 80px;
-  margin-bottom: 80px;
 }
 
 .ride-section1-container {
@@ -461,6 +460,118 @@ a.sign-up-to-ride {
 .ride-section1-part4 {
   width: 33.3333%;
   order: 4;
+}
+
+.ride-section2 {
+  background-color: rgb(235, 235, 255);
+  margin-bottom: 80px;
+}
+
+.ride-section2-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding-right: 8px;
+  padding-left: 24px;
+  margin-left: 7.333%;
+  margin-right: 83.3333%;
+}
+
+.ride-section2-part2 {
+  width: 83.3333%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.ride-bike-scoot {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+  margin-left: 100px;
+}
+
+.we-got-options {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.ride-options-arrows {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 6px;
+}
+
+.ride-options-left-arrow {
+  margin: 0px 24px 60px 24px;
+  fill: grey;
+}
+
+.ride-options-right-arrow {
+  background-color: rgba(139, 55, 255, 1);
+  border-radius: 56px;
+  margin: 0px 24px;
+  border: 1px solid transparent;
+  fill: white;
+}
+
+.ride-options-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.ride-options-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  width: 280px;
+  height: 280px;
+  margin: 4px;
+  padding: 32px 16px;
+  box-shadow: 0px 2px 3px 0px rgb(0 0 0 / 16%);
+}
+
+.ride-options-header {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  padding-bottom: 16px;
+}
+
+.ride-options-image {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ride-options-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: grey;
+}
+
+.ride-options-body span {
+  padding-left: 3px;
+}
+
+.availability-of-bikes {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
 
 /*_________________________________FOOTER_________________________________*/
