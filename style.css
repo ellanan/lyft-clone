@@ -530,8 +530,10 @@ a.sign-up-to-ride {
   margin-left: 8.3333%;
   width: 83.3333%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .ride-bike-scoot {
@@ -550,11 +552,11 @@ a.sign-up-to-ride {
 .ride-options-arrows {
   display: flex;
   flex-direction: row;
-  margin: 0px 6px;
+  align-items: center;
+  margin: 20px auto 50px auto;
 }
 
 .ride-options-left-arrow {
-  margin: 0px 24px 60px 24px;
   fill: grey;
 }
 
@@ -564,6 +566,7 @@ a.sign-up-to-ride {
   margin: 0px 24px;
   border: 1px solid transparent;
   fill: white;
+  padding: 12px;
 }
 
 .ride-options-container {
