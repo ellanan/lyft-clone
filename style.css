@@ -905,22 +905,26 @@ input:focus ~ .location-label {
 
 /*_________________________________FOOTER_________________________________*/
 
-.fa-twitter {
-  color: white;
+.sitemap-li {
+  list-style: none;
+  margin-bottom: 8px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
 }
-
-.fa-facebook {
-  color: white;
-}
-
-.fa-instagram {
-  color: white;
+.sitemap-li li {
+  padding-bottom: 10px;
 }
 
 .footer {
-  background-color: #dbe9ee;
+  background: linear-gradient(
+    rgb(231, 231, 239) 0%,
+    rgb(244, 244, 250) 5%,
+    rgb(255, 255, 255) 10%
+  );
   font-size: 12px;
-  padding: 32px 0px;
+  padding: 46px 0px;
   margin-top: 5em;
 }
 
@@ -934,6 +938,8 @@ input:focus ~ .location-label {
   align-items: center;
   text-decoration: none;
   font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
   color: rgba(12, 11, 49, 1);
   border: 1px solid rgba(12, 11, 49, 0.45);
   border-radius: 56px;
@@ -949,6 +955,8 @@ input:focus ~ .location-label {
 .sitemap {
   display: flex;
   justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .footnote {
@@ -971,4 +979,17 @@ input:focus ~ .location-label {
   max-width: 83.333%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
 }
