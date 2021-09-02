@@ -473,15 +473,20 @@ a.sign-up-to-ride {
 }
 
 .get-a-ride-button {
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(139, 55, 255, 1);
   border: 1px solid transparent;
   border-radius: 999px;
   min-height: 48px;
-  min-width: 100px;
+  max-width: 125px;
   padding: 8px 24px;
+}
+.get-a-ride-button a {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
 }
 
 .lyft-pink {
@@ -731,14 +736,20 @@ input:focus ~ .location-label {
 }
 
 .learn-about-safety {
-  font-weight: 700;
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(139, 55, 255, 1);
   border-radius: 50px;
   min-height: 48px;
   min-width: 100px;
   padding: 8px 24px;
   margin-right: 26px;
+}
+
+.learn-about-safety a {
+  font-weight: 700;
+  color: white;
   font-size: 16px;
 }
 
