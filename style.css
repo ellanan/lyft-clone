@@ -633,7 +633,7 @@ input:focus ~ .location-label {
   font-size: 18px;
   width: 100%;
   height: 60px;
-  padding: 16px 40px 0px;
+  padding: 16px 26px 0px;
 }
 
 .ride-section3-searchbox {
@@ -710,6 +710,9 @@ input:focus ~ .location-label {
 }
 
 .community-guidlines {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   font-weight: 700;
   font-size: 14px;
 }
@@ -740,7 +743,7 @@ input:focus ~ .location-label {
 .vaccine-access-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 80px;
   margin-bottom: 80px;
   text-align: left;
@@ -755,7 +758,7 @@ input:focus ~ .location-label {
 .vaccine-access-section2 {
   width: 33.333%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -763,6 +766,7 @@ input:focus ~ .location-label {
   border-top-left-radius: 140px;
   width: 100%;
   height: auto;
+  padding-top: 24px;
 }
 
 .vaccine-access-section3 {
@@ -772,7 +776,7 @@ input:focus ~ .location-label {
 .vaccine-access-section4 {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 41%;
   text-align: left;
 }
 
@@ -782,16 +786,19 @@ input:focus ~ .location-label {
   font-weight: 700;
 }
 
-.learn-more-about-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 28px;
+.vaccine-access-section4 p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
 }
 
 .learn-more-about-vaccine-access {
   font-weight: 700;
   font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 28px;
 }
 .learn-more-about-vaccine-access:hover {
   text-decoration: underline;
