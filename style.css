@@ -858,6 +858,54 @@ input:focus ~ .location-label {
 
 /*_________________________________LYFT BUSINESS SECTION_________________________________*/
 
+.lyft-business-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 90px 8.3333% 80px 8.3333%;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 8px;
+  min-width: 320px;
+  max-width: 1280px;
+}
+
+.lyft-business-logo {
+  margin: 0px auto;
+  max-width: 150px;
+  height: auto;
+}
+
+.we-help-you {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-top: 20px;
+}
+
+.lyft-business-container p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.learn-about-lyft-business {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.learn-about-lyft-business:hover {
+  text-decoration: underline;
+}
+
+/* rolling text */
+
 /*_________________________________FOOTER_________________________________*/
 
 .fa-twitter {
