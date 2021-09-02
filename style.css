@@ -60,24 +60,52 @@ header {
   margin-top: 1em;
   margin-right: 2em;
   display: flex;
+  flex-direction: row;
   align-items: center;
   border: 0.5px solid #101030;
   border-radius: 6px;
   height: 48px;
   padding: 16px;
+  width: 320px;
 }
 
 .searchicon {
-  margin-left: 50px;
+  position: absolute;
+  margin-left: 0px;
 }
 
 .search-dot {
-  margin-right: 8px;
+  position: absolute;
+  margin-right: 10px;
 }
 
 .search-dot-2 {
   position: absolute;
   left: 16px;
+}
+
+.nav-location-label {
+  position: absolute;
+  pointer-events: none;
+  transform-origin: 0px 0px;
+  transition: transform 100ms cubic-bezier(0.45, 0, 0.15, 1) 0s;
+  color: grey;
+  font-size: 16px;
+  margin-left: 26px;
+}
+
+input:valid ~ .nav-location-label,
+input:focus ~ .nav-location-label {
+  transform: scale(0.9) translateY(-10px);
+  margin-bottom: 2px;
+}
+
+.nav-input-style {
+  outline: none;
+  min-width: 80px;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px 8px 0px;
 }
 
 /*_________________________________HERO SECTION_________________________________*/
