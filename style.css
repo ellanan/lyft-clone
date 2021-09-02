@@ -604,6 +604,32 @@ a.sign-up-to-ride {
   align-items: center;
   margin-left: 10px;
   margin-right: 10px;
+  position: relative;
+}
+
+.location-label {
+  position: absolute;
+  pointer-events: none;
+  transform-origin: 40px 0px;
+  padding-left: 24px;
+  transition: transform 100ms cubic-bezier(0.45, 0, 0.15, 1) 0s;
+  color: grey;
+  font-size: 16px;
+  padding: 24px;
+}
+
+input:valid ~ .location-label,
+input:focus ~ .location-label {
+  transform: scale(0.9) translateY(-8px);
+  margin-bottom: 2px;
+}
+
+.input-style {
+  outline: none;
+  min-width: 80px;
+  height: 100%;
+  transform: translateY(10px);
+  font-size: 18px;
 }
 
 .ride-section3-searchbox {
@@ -612,7 +638,7 @@ a.sign-up-to-ride {
   align-items: center;
   background-color: white;
   border-radius: 5px;
-  padding: 16px 26px 16px 14px;
+  padding: 16px 16px 16px 14px;
 }
 
 .ride-section3-get-estimate {
@@ -621,6 +647,7 @@ a.sign-up-to-ride {
   border-radius: 56px;
   padding: 12px 22px;
   margin-left: 5px;
+  transform: translateY(-3px);
 }
 
 /*_________________________________SAFETY FIRST SECTION_________________________________*/
