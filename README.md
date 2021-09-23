@@ -1,3 +1,5 @@
-# lyft-homepage-html-css-exercise
+# Lyft homepage clone
 
-https://ellanan.github.io/lyft-homepage-html-css-exercise/
+Re-created Lyft homepage to practice HTML5 and CSS3 skills.
+
+Check out the live page on https://ellanan.github.io/lyft-homepage-html-css-exercise/
